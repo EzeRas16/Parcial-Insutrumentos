@@ -1,0 +1,122 @@
+{
+  "instruments": [
+    {
+      "id": "edTz08igHOg",
+      "modelName": "Student I 4/4",
+      "maker": "Stentor",
+      "family": "Cuerda frotada",
+      "salePrice": 380000,
+      "isInStore": true,
+      "constructionDetails": "Violín de estudio vaciado a mano en maderas macizas de abeto y arce, con diapasón y clavijas de palisandro oscurecido."
+    },
+    {
+      "id": "aK9mL2pX1qR",
+      "modelName": "Player II Stratocaster",
+      "maker": "Fender",
+      "family": "Cuerda pulsada",
+      "salePrice": 1450000,
+      "isInStore": true,
+      "constructionDetails": "Cuerpo de aliso, mástil de arce con perfil C moderno y tres cápsulas de bobina simple Player Series Alnico 5."
+    },
+    {
+      "id": "bR4vN7yW8tZ",
+      "modelName": "YFL-222",
+      "maker": "Yamaha",
+      "family": "Viento",
+      "salePrice": 720000,
+      "isInStore": true,
+      "constructionDetails": "Flauta traversa en do con llaves cerradas, mecanismo de sol desalineado y acabado completo en alpaca plateada."
+    },
+    {
+      "id": "dL8wX2mP9sJ",
+      "modelName": "P-125a",
+      "maker": "Yamaha",
+      "family": "Teclado",
+      "salePrice": 990000,
+      "isInStore": false,
+      "constructionDetails": "Piano digital compacto de 88 teclas contrapesadas con motor de sonido Pure CF y sistema de altavoces de dos vías."
+    },
+    {
+      "id": "eN3yT6vR4kB",
+      "modelName": "Student II Cello 4/4",
+      "maker": "Stentor",
+      "family": "Cuerda frotada",
+      "salePrice": 1120000,
+      "isInStore": true,
+      "constructionDetails": "Violonchelo construido con tapa de abeto macizo, aros y fondo de arce flameado, accesorios de ébano y cordal con tensores."
+    },
+    {
+      "id": "fP7zU1wM8oC",
+      "modelName": "Player II Precision Bass",
+      "maker": "Fender",
+      "family": "Cuerda pulsada",
+      "salePrice": 1580000,
+      "isInStore": false,
+      "constructionDetails": "Bajo eléctrico de cuatro cuerdas con cuerpo de aliso, diapasón de arce de radio 9.5 pulg y pastilla dividida Player Series Alnico 5."
+    },
+    {
+      "id": "gQ2mV9xL5tD",
+      "modelName": "YAS-280",
+      "maker": "Yamaha",
+      "family": "Viento",
+      "salePrice": 1890000,
+      "isInStore": true,
+      "constructionDetails": "Saxofón alto en mi bemol con tudel refinado, apoyapulgar ajustable y llaves de fa sostenido agudo con acabado lacado dorado."
+    },
+    {
+      "id": "hR5wN4yP2sE",
+      "modelName": "Roadshow RS525SC",
+      "maker": "Pearl",
+      "family": "Batería",
+      "salePrice": 920000,
+      "isInStore": true,
+      "constructionDetails": "Batería completa con cascos de álamo de 9 capas de 7 mm, incluye redoblante, herrajes de doble pata y conjunto de platillos."
+    },
+    {
+      "id": "iS9xM3zT7uF",
+      "modelName": "Student Viola 15.5",
+      "maker": "Stentor",
+      "family": "Cuerda frotada",
+      "salePrice": 490000,
+      "isInStore": false,
+      "constructionDetails": "Viola académica tallada en madera maciza con puente de arce ajustado y diapasón de ébano con perfil ergonómico."
+    },
+    {
+      "id": "jT1pL8vW4oG",
+      "modelName": "CD-60S Dreadnought",
+      "maker": "Fender",
+      "family": "Cuerda pulsada",
+      "salePrice": 420000,
+      "isInStore": true,
+      "constructionDetails": "Guitarra acústica con tapa de abeto macizo, aros y fondo de caoba con varetaje en X vieira para mayor resonancia."
+    },
+    {
+      "id": "kU4yR7mP1sH",
+      "modelName": "YTR-2330",
+      "maker": "Yamaha",
+      "family": "Viento",
+      "salePrice": 810000,
+      "isInStore": true,
+      "constructionDetails": "Trompeta en si bemol con tudel de latón amarillo, pistones de aleación de monel y gatillo ajustable en la tercera bomba."
+    },
+    {
+      "id": "lV8zN2wX6tI",
+      "modelName": "Modern Deluxe Snare 14x6.5",
+      "maker": "Pearl",
+      "family": "Batería",
+      "salePrice": 540000,
+      "isInStore": true,
+      "constructionDetails": "Redoblante con casco de latón cromado de 1 mm, aros MasterCast fundidos a presión y tirabordón de acción vertical."
+    },
+    {
+      "id": "mW3xP9yT5uJ",
+      "modelName": "PSR-E373",
+      "maker": "Yamaha",
+      "family": "Teclado",
+      "salePrice": 360000,
+      "isInStore": true,
+      "constructionDetails": "Teclado portátil de 61 teclas sensibles a la pulsación, generador de tonos AWM Stereo Sampling y 622 voces integradas."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
