@@ -1,0 +1,33 @@
+@let i = instrumento();
+
+<button type="button" routerLink="catalogo">&leftarrow; Volver al catalogo</button>
+@if (i) {
+  <div class="tarjeta">
+    <div class="info">
+      <p class="familia">{{ i.family }}</p>
+      <h1>{{ i.maker }} | {{ i.modelName }}</h1>
+      <p>Precio</p>
+      <p>$ {{ i.salePrice }}</p>
+    </div>
+    <div class="infoSecundaria">
+      @if (i.isInStore) {
+        <p>Disponible</p>
+      } @else {
+        <p>No Disponible</p>
+      }
+      <h2>Detalles</h2>
+      <p>{{ i.constructionDetails }}</p>
+    </div>
+
+    <div class="botones">
+
+        <button type="button" (click)="editando.update(v => !v) ">Editar Instrumento</button>
+        <button type="button" (click)="eliminar()">Eliminar</button>
+        @if(editando()){
+            <app-formulario [aEditar]="i" (aCargar)="editar($event)"></app-formulario>
+        }
+    </div>
+  </div>
+} @else {
+  <p>No encontrado</p>
+}

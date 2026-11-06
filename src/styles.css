@@ -1,0 +1,30 @@
+:root {
+--fondo-principal: #f4f1ea; /* Pergamino claro / Papel partitura */
+--fondo-tarjetas: #ffffff; /* Blanco limpio para destacar instrumentos */
+--fondo-secundario: #e5dfd3; /* Gris cálido / Lino */
+--fondo-header: #161213; /* Tonalidad casi negra para la barra superior */
+--color-borde: #2c2527; /* Marrón caoba oscuro */
+--texto-principal: #2d2426; /* Marrón negruzco de alta legibilidad */
+--texto-secundario: #6e615e; /* Gris topo / Madera envejecida */
+--texto-sobre-oscuro: #fbf8f5; /* Blanco marfil para contrastar con fondos oscuros */
+--texto-sobre-oscuro-secundario: #c7b8b2; /* Gris perla cálido */
+--acento-principal: #8c4a32; /* Caoba rojizo / Madera de guitarra acústica */
+--acento-secundario: #c29b38; /* Bronce / Latón satinado (vientos y herrajes) */
+--acento-destructivo: #a63a3a; /* Rojo óxido / Emergencia */
+}
+
+
+body{
+    background-color: #c7b8b2;
+    margin: 0;
+}
+
+button {
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #8c4a32;
+    color:#c7b8b2;
+    border: solid 1px;
+    border-radius: 5px;
+}
+

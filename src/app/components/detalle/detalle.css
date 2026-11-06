@@ -1,0 +1,41 @@
+
+
+.tarjeta{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fondo-secundario);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.info{
+display: flex;
+flex-direction: column;
+}
+
+.infoSecundaria{
+display: flex;
+flex-direction: column;
+}
+
+.info p , .info h1{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.infoSecundaria h2 , .infoSecundaria p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.botones{
+    display: flex;
+    gap: 1rem;
+}
+
+.familia{
+    color: var(--acento-principal);
+}

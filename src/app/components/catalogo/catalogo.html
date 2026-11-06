@@ -1,0 +1,43 @@
+<div class="encabezado">
+    <span>SoundCraft . Seleccion musical</span>
+    <h1>Catalogo</h1>
+    <p>Explora nuestros instrumentos y encontra el sonido que buscas</p>
+</div>
+
+<div class="filtros">
+    <label for="">Precio maximo</label>
+    <input #max type="number" [value]="precioMax()" (input)="precioMax.set(max.valueAsNumber)">
+
+    <label for="">Precio minimo</label>
+    <input #min type="number" [value]="precioMin()" (input)="precioMin.set(min.valueAsNumber)">
+    
+    <button class="limpiar" type="button" (click)="limpiarFiltros()">Limpiar</button>
+
+</div>
+
+<div class="lista">
+    @for (i of instrumentosFiltrados(); track i.id) {
+        <div class="tarjeta">
+            <div class="info">
+                <h2>{{i.maker}} | {{i.modelName}}</h2>   
+                <p>{{i.family}}</p>
+            </div>
+
+            <div class="orden">
+
+                <div class="infoSecundaria">
+                    
+                    <p> $ {{i.salePrice}}</p>
+                    @if (i.isInStore) {
+                        <p>Disponible</p>
+                    }@else {
+                        
+                        <p>No disponible</p>
+                    }
+                </div>
+                <button class="ver" type="button" (click)="router.navigate(['detalle', i.id])">Ver Mas</button>
+            </div>
+       
+    </div>
+    }
+</div>
